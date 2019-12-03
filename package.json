@@ -1,0 +1,53 @@
+{
+  "name": "@component/international-context",
+  "description": "Displays options to switch countries and currencies",
+  "version": "1.0.0",
+  "author": {
+    "name": "Imran Gilani",
+    "email": "imran.gilani@bloomingdales.com"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git@code.devops.fds.com:polaris/component/international-context.git"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
+  "main": "src/internationalcontext",
+  "dependencies": {
+    "@component/drawer": "^3.9.0",
+    "@component/notification": "^2.12.0",
+    "@component/common": "^1.5.0"
+  },
+  "devDependencies": {
+    "@core/dev-server": "^1.21.0",
+    "@component/drawer": "^1.x.0",
+    "@core/server": "^1.24.0",
+    "@core/style-guide-bcom": "^1.86.0",
+    "jasmine-precondition": "^0.1.0",
+    "jquery-mockjax": "^2.2.2",
+    "superagent": "^3.8.2"
+  },
+  "config": {
+    "macysCliVersion": "1.403.29",
+    "environment": [
+      {
+        "name": "XAPI_DOMAIN",
+        "local": {
+          "bcom": "discoverypagesxapi-bcom-179.tbe.zeus.fds.com:8080"
+        },
+        "prod": {
+          "bcom": "__KISMET_XAPI_DOMAIN__"
+        }
+      },
+      {
+        "name": "PROXY_SERVICE_HOST",
+        "local": {
+          "bcom": "https://www.bcom-179.tbe.zeus.fds.com"
+        }
+      }
+    ]
+  }
+}

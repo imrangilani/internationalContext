@@ -1,0 +1,1 @@
+This will display options to switch countries and currencies to change the context of the entire site to that country and the prices in that currency.
